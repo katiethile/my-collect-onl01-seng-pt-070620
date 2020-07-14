@@ -6,5 +6,4 @@ def my_collect(languages)
   i+=1
   end 
   students
-  end
 end 
