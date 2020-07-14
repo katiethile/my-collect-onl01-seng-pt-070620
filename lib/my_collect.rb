@@ -3,9 +3,9 @@ def my_collect(languages)
   i = 0 
   my_collect(languages) do |language|
   while i < languages.length
-  students << yield(languages[i])
+  students << yield[languages[i]
   my_collect(students) do |student|
-  i += 1
+  i+=1
   end 
   students
   end
